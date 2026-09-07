@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <meta name="viewport">
+        <title>Jobsheet1_anggotaTambah</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Tambah Buku</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Beranda</a></li>
+                    <li><a href="../buku/list.html">Daftar Buku</a></li>
+                    <li><a href="../buku/tambah.html">Tambah Buku</a></li>
+                    <li><a href="list.html">Daftar Anggota</a></li>
+                    <li><a href="tambah.html">Tambah Anggota</a></li>
+                </ul>
+            </nav>            
+        </header>
+
+        <main>
+            <form>
+                <p>
+                    <label for="kode">Kode</label><br>
+                    <input type="text" id="kode" name="kode" required>
+                </p>
+                <p>
+                    <label for="nama">Nama</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+                <p>
+                    <label for="nim">NIM</label><br>
+                    <input type="number" id="nim" name="nim" min="99999999999" max="999999999999" required>
+                </p>
+                <p>
+                    <label for="hp">No.HP</label><br>
+                    <input type="text" id="hp" name="hp">
+                </p>
+                <p>
+                    <button type="submit">Kirim</button>
+                </p>
+
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 MMDz-123 &dash; Jobsheet 1</p>
+        </footer>        
+    </body>
+</html>
